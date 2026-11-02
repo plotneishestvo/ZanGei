@@ -53,16 +53,24 @@ The native KiCad files define the implemented circuit. Documentation and 3D enve
 
 ## Repository
 
-| Directory | Purpose |
-|---|---|
-| `schematics/` | Main KiCad design, custom libraries, component models and review records |
-| `docs/` | Self-contained architecture, build notes and datasheets |
-| `bom/v0.1/` | One-module parts and additional assembly hardware |
-| `mechanical/` | Editable panel source and panel exports |
-| `simulation/` | Retained circuit studies; not complete-module validation |
-| `test_signals/` | Audio used for listening experiments |
+| Directory       | Purpose                                                                  |
+| --------------- | ------------------------------------------------------------------------ |
+| `schematics/`   | Main KiCad design, custom libraries, component models and review records |
+| `docs/`         | Self-contained architecture, build notes and datasheets                  |
+| `bom/v0.1/`     | One-module parts and additional assembly hardware                        |
+| `mechanical/`   | Editable panel source and panel exports                                  |
+| `simulation/`   | Retained circuit studies; not complete-module validation                 |
+| `test_signals/` | Audio used for listening experiments                                     |
 
 The BOM covers 157 schematic positions plus separate sockets and hardware. Generated manufacturing files and full-board FreeCAD review assemblies are local working artifacts, not a fabrication release. See the [simulation guide](simulation/README.md) for the historical scope and requirements of the retained studies.
+
+
+
+### PCB render:
+
+![](./pcb/ZanGeiFront.png)
+
+![](./pcb/ZanGeiBack.png)
 
 ## Licence and attribution
 
