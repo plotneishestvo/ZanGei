@@ -1,0 +1,39 @@
+* Eurorack Input Buffer + Output Driver
+* For Qucs-S (ngspice engine)
+* Two op-amp stages: unity-gain buffer + gain=2 line driver
+
+* === Ideal op-amp model ===
+.subckt OPAMP inp inn out
+E1 out 0 inp inn 100k
+.ends OPAMP
+
+* === Power rails (Eurorack) ===
+VCC vcc 0 DC 12
+VEE vee 0 DC -12
+
+* === Input: 10Vpp, 1kHz sine ===
+VIN in 0 SIN(0 5 1k) AC 1
+
+* === Input AC coupling + bias ===
+C1 in buf_in 1uF
+R1 buf_in 0 100k
+
+* === Stage 1: unity-gain buffer ===
+XU1 buf_in buf_out buf_out OPAMP
+
+* === Stage 2: gain = 1 + Rfb/Rg = 2 ===
+Rg amp_fb 0 10k
+Rfb amp_out amp_fb 10k
+XU2 buf_out amp_fb amp_out OPAMP
+
+* === Output AC coupling + load ===
+C2 amp_out line_out 10uF
+Rload line_out 0 10k
+
+* === Analysis ===
+.control
+tran 1u 5m
+print v(in) v(line_out)
+.endc
+
+.end

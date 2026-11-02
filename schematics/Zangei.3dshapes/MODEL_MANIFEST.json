@@ -1,0 +1,1022 @@
+{
+  "models": {
+    "Resistor_6.8x2.3_P10.16": {
+      "file": "${KIPRJMOD}/Zangei.3dshapes/Resistor_6.8x2.3_P10.16.wrl",
+      "step_file": "${KIPRJMOD}/Zangei.3dshapes/Resistor_6.8x2.3_P10.16.step",
+      "status": "dimension-based review approximation, NOT exact vendor CAD",
+      "note": "Selected body envelope; 1mm body standoff assumed. Lead forming is illustrative.",
+      "body_bounds_mm": [
+        1.6800000000000002,
+        -1.15,
+        1,
+        8.48,
+        1.15,
+        3.3
+      ]
+    },
+    "Resistor_9.25x3.6_P12.70": {
+      "file": "${KIPRJMOD}/Zangei.3dshapes/Resistor_9.25x3.6_P12.70.wrl",
+      "step_file": "${KIPRJMOD}/Zangei.3dshapes/Resistor_9.25x3.6_P12.70.step",
+      "status": "dimension-based review approximation, NOT exact vendor CAD",
+      "note": "Selected body envelope; 1mm body standoff assumed. Lead forming is illustrative.",
+      "body_bounds_mm": [
+        1.7249999999999996,
+        -1.8,
+        1,
+        10.975,
+        1.8,
+        4.6
+      ]
+    },
+    "C315_X7R": {
+      "file": "${KIPRJMOD}/Zangei.3dshapes/C315_X7R.wrl",
+      "step_file": "${KIPRJMOD}/Zangei.3dshapes/C315_X7R.step",
+      "status": "dimension-based review approximation, NOT exact vendor CAD",
+      "note": "X7R uses manufacturer max body dimensions. C0G is deliberately oversized, height RESERVED not qualified; rectangular envelope, not a disc claim.",
+      "body_bounds_mm": [
+        -0.635,
+        -1.27,
+        0.2,
+        3.175,
+        1.27,
+        3.3400000000000003
+      ]
+    },
+    "C315_C0G_RESERVED": {
+      "file": "${KIPRJMOD}/Zangei.3dshapes/C315_C0G_RESERVED.wrl",
+      "step_file": "${KIPRJMOD}/Zangei.3dshapes/C315_C0G_RESERVED.step",
+      "status": "dimension-based review approximation, NOT exact vendor CAD",
+      "note": "X7R uses manufacturer max body dimensions. C0G is deliberately oversized, height RESERVED not qualified; rectangular envelope, not a disc claim.",
+      "body_bounds_mm": [
+        -0.635,
+        -2.5,
+        0.2,
+        3.175,
+        2.5,
+        5.53
+      ]
+    },
+    "Electrolytic_D5_H11_P2": {
+      "file": "${KIPRJMOD}/Zangei.3dshapes/Electrolytic_D5_H11_P2.wrl",
+      "step_file": "${KIPRJMOD}/Zangei.3dshapes/Electrolytic_D5_H11_P2.step",
+      "status": "dimension-based review approximation, NOT exact vendor CAD",
+      "note": "Selected D x H11mm envelope; illustrative cap/lead detail, no exact jacket or vent representation.",
+      "body_bounds_mm": [
+        -1.5,
+        -2.5,
+        0.2,
+        3.5,
+        2.5,
+        11.05
+      ]
+    },
+    "Electrolytic_D5_H11_P2.5": {
+      "file": "${KIPRJMOD}/Zangei.3dshapes/Electrolytic_D5_H11_P2.5.wrl",
+      "step_file": "${KIPRJMOD}/Zangei.3dshapes/Electrolytic_D5_H11_P2.5.step",
+      "status": "dimension-based review approximation, NOT exact vendor CAD",
+      "note": "Selected D x H11mm envelope; illustrative cap/lead detail, no exact jacket or vent representation.",
+      "body_bounds_mm": [
+        -1.25,
+        -2.5,
+        0.2,
+        3.75,
+        2.5,
+        11.05
+      ]
+    },
+    "Electrolytic_D6.3_H11_P2.5": {
+      "file": "${KIPRJMOD}/Zangei.3dshapes/Electrolytic_D6.3_H11_P2.5.wrl",
+      "step_file": "${KIPRJMOD}/Zangei.3dshapes/Electrolytic_D6.3_H11_P2.5.step",
+      "status": "dimension-based review approximation, NOT exact vendor CAD",
+      "note": "Selected D x H11mm envelope; illustrative cap/lead detail, no exact jacket or vent representation.",
+      "body_bounds_mm": [
+        -1.9,
+        -3.15,
+        0.2,
+        4.4,
+        3.15,
+        11.05
+      ]
+    },
+    "PTC_MF_R020": {
+      "file": "${KIPRJMOD}/Zangei.3dshapes/PTC_MF_R020.wrl",
+      "step_file": "${KIPRJMOD}/Zangei.3dshapes/PTC_MF_R020.step",
+      "status": "dimension-based review approximation, NOT exact vendor CAD",
+      "note": "Conservative rectangular manufacturer-maximum envelope 7.4 x 3.1 x 12.7; actual radial body is rounded.",
+      "body_bounds_mm": [
+        -1.15,
+        -1.55,
+        0.3,
+        6.25,
+        1.55,
+        12.7
+      ]
+    },
+    "PTC_1206L": {
+      "file": "${KIPRJMOD}/Zangei.3dshapes/PTC_1206L.wrl",
+      "step_file": "${KIPRJMOD}/Zangei.3dshapes/PTC_1206L.step",
+      "status": "dimension-based review approximation, NOT exact vendor CAD",
+      "note": "Manufacturer maximum body envelope; generic terminal details omitted.",
+      "body_bounds_mm": [
+        -1.7,
+        -0.9,
+        0,
+        1.7,
+        0.9,
+        1
+      ]
+    },
+    "Ferrite_BLM31": {
+      "file": "${KIPRJMOD}/Zangei.3dshapes/Ferrite_BLM31.wrl",
+      "step_file": "${KIPRJMOD}/Zangei.3dshapes/Ferrite_BLM31.step",
+      "status": "dimension-based review approximation, NOT exact vendor CAD",
+      "note": "Conservative local footprint envelope and 1.3mm reserved height; not exact terminal geometry.",
+      "body_bounds_mm": [
+        -1.7,
+        -0.9,
+        0,
+        1.7,
+        0.9,
+        1.3
+      ]
+    },
+    "Trimmer_3362P": {
+      "file": "${KIPRJMOD}/Zangei.3dshapes/Trimmer_3362P.wrl",
+      "step_file": "${KIPRJMOD}/Zangei.3dshapes/Trimmer_3362P.step",
+      "status": "dimension-based review approximation, NOT exact vendor CAD",
+      "note": "Drawing-based body; 0.3mm seating and adjustment protrusion are assumptions; total height reserved 5.48mm.",
+      "body_bounds_mm": [
+        -0.76,
+        -3.46,
+        0.3,
+        5.84,
+        3.53,
+        5.48
+      ]
+    },
+    "Trimmer_CT-6EP_Envelope": {
+      "file": "${KIPRJMOD}/Zangei.3dshapes/Trimmer_CT-6EP_Envelope.wrl",
+      "status": "maximum-body envelope approximation, NOT exact vendor CAD; no STEP model",
+      "note": "CT-6 p4:7x7x5.8mm nominal plus unspecified+0.3mm tolerance. Body seated atPCB surface; physical seating and tool access remain dry-fit checks. No matching installed KiCad model found.",
+      "body_bounds_mm": [-1.15, -3.65, 0, 6.15, 3.65, 6.1]
+    },
+    "RV09_ENVELOPE": {
+      "file": "${KIPRJMOD}/Zangei.3dshapes/RV09_ENVELOPE.wrl",
+      "step_file": "${KIPRJMOD}/Zangei.3dshapes/RV09_ENVELOPE.step",
+      "status": "dimension-based review approximation, NOT exact vendor CAD",
+      "note": "Provisional FOOTPRINT envelope, not verified RV09 body: reserve14.5x13x10, illustrative bushing/shaft. Common panel seating plane remains unqualified.",
+      "body_bounds_mm": [
+        -6.5,
+        -6.5,
+        0,
+        8,
+        6.5,
+        25
+      ]
+    },
+    "Salecom_SKS_ENVELOPE": {
+      "file": "${KIPRJMOD}/Zangei.3dshapes/Salecom_SKS_ENVELOPE.wrl",
+      "step_file": "${KIPRJMOD}/Zangei.3dshapes/Salecom_SKS_ENVELOPE.step",
+      "status": "dimension-based review approximation, NOT exact vendor CAD",
+      "note": "Conservative9x9 footprint envelope, body height8.64; illustrative straight actuator. Exact seating and throw need delivered-part check.",
+      "body_bounds_mm": [
+        -4.5,
+        -4.5,
+        0,
+        4.5,
+        4.5,
+        18.04
+      ]
+    },
+    "Jack_WQP518MA_ENVELOPE": {
+      "file": "${KIPRJMOD}/Zangei.3dshapes/Jack_WQP518MA_ENVELOPE.wrl",
+      "step_file": "${KIPRJMOD}/Zangei.3dshapes/Jack_WQP518MA_ENVELOPE.step",
+      "status": "dimension-based review approximation, NOT exact vendor CAD",
+      "note": "Footprint drawing/body10mm; illustrative bushing; panel spacing and actual barrel keepout require qualification.",
+      "body_bounds_mm": [
+        -4.5,
+        1.98,
+        0,
+        4.5,
+        12.48,
+        13.5
+      ]
+    },
+    "Alpha_RD902F_ENVELOPE": {
+      "file": "${KIPRJMOD}/Zangei.3dshapes/Alpha_RD902F_ENVELOPE.wrl",
+      "step_file": "${KIPRJMOD}/Zangei.3dshapes/Alpha_RD902F_ENVELOPE.step",
+      "status": "dimension-based review approximation, NOT exact vendor CAD",
+      "note": "Provisional dual-pot body15x10x10 about shaft(7.5,2.5); generic shaft. Exact selected variant and common seating NOT qualified.",
+      "body_bounds_mm": [
+        0,
+        -2.5,
+        0,
+        15,
+        7.5,
+        25
+      ]
+    },
+    "DIP8_CHIP": {
+      "file": "${KIPRJMOD}/Zangei.3dshapes/DIP8_CHIP.wrl",
+      "step_file": "${KIPRJMOD}/Zangei.3dshapes/DIP8_CHIP.step",
+      "status": "dimension-based review approximation, NOT exact vendor CAD",
+      "note": "Illustrative installed IC above existing socket. 9mm total installed-height reservation; V3205SD offset1.27mm from socket centre. Not exact vendor/lead CAD.",
+      "body_bounds_mm": [
+        0.61,
+        -1.0900000000000003,
+        5.2,
+        7.01,
+        8.71,
+        9
+      ]
+    },
+    "DIP16_CHIP": {
+      "file": "${KIPRJMOD}/Zangei.3dshapes/DIP16_CHIP.wrl",
+      "step_file": "${KIPRJMOD}/Zangei.3dshapes/DIP16_CHIP.step",
+      "status": "dimension-based review approximation, NOT exact vendor CAD",
+      "note": "Illustrative installed IC above existing socket. 9mm total installed-height reservation; V3205SD offset1.27mm from socket centre. Not exact vendor/lead CAD.",
+      "body_bounds_mm": [
+        0.61,
+        -1.0099999999999998,
+        5.2,
+        7.01,
+        18.79,
+        9
+      ]
+    },
+    "V3205SD_CHIP": {
+      "file": "${KIPRJMOD}/Zangei.3dshapes/V3205SD_CHIP.wrl",
+      "step_file": "${KIPRJMOD}/Zangei.3dshapes/V3205SD_CHIP.step",
+      "status": "dimension-based review approximation, NOT exact vendor CAD",
+      "note": "Illustrative installed IC above existing socket. 9mm total installed-height reservation; V3205SD offset1.27mm from socket centre. Not exact vendor/lead CAD.",
+      "body_bounds_mm": [
+        0.61,
+        1.2699999999999996,
+        5.2,
+        7.01,
+        19.05,
+        9
+      ]
+    }
+  },
+  "updated_references": [
+    {
+      "ref": "F602",
+      "models": [
+        "PTC_MF_R020"
+      ]
+    },
+    {
+      "ref": "F603",
+      "models": [
+        "PTC_1206L"
+      ]
+    },
+    {
+      "ref": "RV801",
+      "models": [
+        "RV09_ENVELOPE"
+      ]
+    },
+    {
+      "ref": "R203",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R717",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "U301",
+      "models": [
+        "DIP16_CHIP"
+      ]
+    },
+    {
+      "ref": "C604",
+      "models": [
+        "C315_X7R"
+      ]
+    },
+    {
+      "ref": "J302",
+      "models": [
+        "Jack_WQP518MA_ENVELOPE"
+      ]
+    },
+    {
+      "ref": "R801",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "U201",
+      "models": [
+        "V3205SD_CHIP"
+      ]
+    },
+    {
+      "ref": "C106",
+      "models": [
+        "Electrolytic_D5_H11_P2.5"
+      ]
+    },
+    {
+      "ref": "FB601",
+      "models": [
+        "Ferrite_BLM31"
+      ]
+    },
+    {
+      "ref": "C206",
+      "models": [
+        "Electrolytic_D5_H11_P2.5"
+      ]
+    },
+    {
+      "ref": "C402",
+      "models": [
+        "C315_C0G_RESERVED"
+      ]
+    },
+    {
+      "ref": "R201",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "C301",
+      "models": [
+        "C315_C0G_RESERVED"
+      ]
+    },
+    {
+      "ref": "C606",
+      "models": [
+        "C315_X7R"
+      ]
+    },
+    {
+      "ref": "RV404",
+      "models": [
+        "RV09_ENVELOPE"
+      ]
+    },
+    {
+      "ref": "J702",
+      "models": [
+        "Jack_WQP518MA_ENVELOPE"
+      ]
+    },
+    {
+      "ref": "RV301",
+      "models": [
+        "RV09_ENVELOPE"
+      ]
+    },
+    {
+      "ref": "C409",
+      "models": [
+        "C315_X7R"
+      ]
+    },
+    {
+      "ref": "F601",
+      "models": [
+        "PTC_MF_R020"
+      ]
+    },
+    {
+      "ref": "C201",
+      "models": [
+        "Electrolytic_D5_H11_P2.5"
+      ]
+    },
+    {
+      "ref": "RV401",
+      "models": [
+        "RV09_ENVELOPE"
+      ]
+    },
+    {
+      "ref": "U101",
+      "models": [
+        "DIP8_CHIP"
+      ]
+    },
+    {
+      "ref": "C204",
+      "models": [
+        "C315_X7R"
+      ]
+    },
+    {
+      "ref": "C404",
+      "models": [
+        "Electrolytic_D6.3_H11_P2.5"
+      ]
+    },
+    {
+      "ref": "R206",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "C410",
+      "models": [
+        "C315_X7R"
+      ]
+    },
+    {
+      "ref": "C603",
+      "models": [
+        "Electrolytic_D6.3_H11_P2.5"
+      ]
+    },
+    {
+      "ref": "R805",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "C607",
+      "models": [
+        "Electrolytic_D6.3_H11_P2.5"
+      ]
+    },
+    {
+      "ref": "R716",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "SW801",
+      "models": [
+        "Salecom_SKS_ENVELOPE"
+      ]
+    },
+    {
+      "ref": "U402",
+      "models": [
+        "DIP8_CHIP"
+      ]
+    },
+    {
+      "ref": "RV701",
+      "models": [
+        "RV09_ENVELOPE"
+      ]
+    },
+    {
+      "ref": "R802",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "C601",
+      "models": [
+        "Electrolytic_D6.3_H11_P2.5"
+      ]
+    },
+    {
+      "ref": "R207",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "J301",
+      "models": [
+        "Jack_WQP518MA_ENVELOPE"
+      ]
+    },
+    {
+      "ref": "R208",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "C104",
+      "models": [
+        "C315_X7R"
+      ]
+    },
+    {
+      "ref": "C401",
+      "models": [
+        "Electrolytic_D5_H11_P2.5"
+      ]
+    },
+    {
+      "ref": "C602",
+      "models": [
+        "C315_X7R"
+      ]
+    },
+    {
+      "ref": "R209",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "C101",
+      "models": [
+        "Electrolytic_D5_H11_P2.5"
+      ]
+    },
+    {
+      "ref": "R302",
+      "models": [
+        "Resistor_9.25x3.6_P12.70"
+      ]
+    },
+    {
+      "ref": "R202",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R804",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "C302",
+      "models": [
+        "C315_X7R"
+      ]
+    },
+    {
+      "ref": "C305",
+      "models": [
+        "Electrolytic_D5_H11_P2"
+      ]
+    },
+    {
+      "ref": "J701",
+      "models": [
+        "Jack_WQP518MA_ENVELOPE"
+      ]
+    },
+    {
+      "ref": "SW201",
+      "models": [
+        "Salecom_SKS_ENVELOPE"
+      ]
+    },
+    {
+      "ref": "C304",
+      "models": [
+        "C315_X7R"
+      ]
+    },
+    {
+      "ref": "RV402",
+      "models": [
+        "Alpha_RD902F_ENVELOPE"
+      ]
+    },
+    {
+      "ref": "U304",
+      "models": [
+        "DIP8_CHIP"
+      ]
+    },
+    {
+      "ref": "R211",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R701",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "C803",
+      "models": [
+        "C315_C0G_RESERVED"
+      ]
+    },
+    {
+      "ref": "R109",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R403",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R314",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R408",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "C408",
+      "models": [
+        "C315_X7R"
+      ]
+    },
+    {
+      "ref": "R113",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R112",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "U302",
+      "models": [
+        "DIP8_CHIP"
+      ]
+    },
+    {
+      "ref": "R102",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R114",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R107",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R602",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R103",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R306",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R415",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "C806",
+      "models": [
+        "C315_X7R"
+      ]
+    },
+    {
+      "ref": "R412",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R111",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R410",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R708",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "C805",
+      "models": [
+        "C315_X7R"
+      ]
+    },
+    {
+      "ref": "R501",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R210",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "C703",
+      "models": [
+        "C315_X7R"
+      ]
+    },
+    {
+      "ref": "R409",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "U701",
+      "models": [
+        "DIP8_CHIP"
+      ]
+    },
+    {
+      "ref": "U702",
+      "models": [
+        "DIP8_CHIP"
+      ]
+    },
+    {
+      "ref": "RV403",
+      "models": [
+        "Trimmer_CT-6EP_Envelope"
+      ]
+    },
+    {
+      "ref": "R504",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "C407",
+      "models": [
+        "C315_X7R"
+      ]
+    },
+    {
+      "ref": "R304",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R601",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R414",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R401",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R315",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "U401",
+      "models": [
+        "DIP8_CHIP"
+      ]
+    },
+    {
+      "ref": "R101",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R406",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R214",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R407",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R301",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R705",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "C801",
+      "models": [
+        "C315_C0G_RESERVED"
+      ]
+    },
+    {
+      "ref": "R213",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "C802",
+      "models": [
+        "C315_C0G_RESERVED"
+      ]
+    },
+    {
+      "ref": "C702",
+      "models": [
+        "C315_C0G_RESERVED"
+      ]
+    },
+    {
+      "ref": "R110",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R707",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "C501",
+      "models": [
+        "C315_X7R"
+      ]
+    },
+    {
+      "ref": "R411",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R212",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R715",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R305",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R108",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R503",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R704",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R502",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R402",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "C502",
+      "models": [
+        "C315_X7R"
+      ]
+    },
+    {
+      "ref": "R603",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R413",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "C406",
+      "models": [
+        "C315_X7R"
+      ]
+    },
+    {
+      "ref": "R106",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R706",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "R404",
+      "models": [
+        "Resistor_6.8x2.3_P10.16"
+      ]
+    },
+    {
+      "ref": "C704",
+      "models": [
+        "C315_X7R"
+      ]
+    }
+  ],
+  "missing_files": [],
+  "parts_without_models": [],
+  "pad_net_preservation": true,
+  "notes": [
+    "VRML is a visual mesh format, not STEP solid geometry.",
+    "Model presence is not exact-fit or assembly qualification.",
+    "Stock socket/header models do not establish selected connector mating height."
+  ]
+}

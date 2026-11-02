@@ -33,6 +33,11 @@ fp-info-cache
 *.xml
 *.csv
 
+# Reviewed source CSVs are part of the public build documentation
+!/bom/v0.1/BOM_GROUPED.csv
+!/bom/v0.1/BOM_PER_REFERENCE.csv
+!/schematics/assembly/Solder_Access_Review.csv
+
 # Archived Backups (KiCad 6.0)
 **/*-backups/*.zip
 
@@ -41,3 +46,62 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+# Other editor state and native CAD backups (not editable source files)
+*.lck
+*.backup
+*-backup/
+*.kicad_bak
+*.kicad_bak-bak
+*.FCBak
+*.FCStd1
+.DS_Store
+Thumbs.db
+__pycache__/
+
+# Generated fabrication and simulation output
+/gerber/
+/manufacturing/
+/simulation/*.raw
+/simulation/*.log
+/simulation/*.out
+
+# Private notebooks, tools, agent instructions and experiments
+/design docs/
+/dev_tools/
+/tmp/
+AGENTS.md
+CLAUDE.md
+.hermes/
+.opencode/
+/IDEA.md
+
+# Local-only assembly and purchasing snapshots
+/bom/v0.1/ASSEMBLY_CHECKLIST.md
+/bom/v0.1/AUXILIARY_PARTS.json
+/bom/v0.1/BODY_COURTYARD_CHECKS.json
+/bom/v0.1/BOM_DATA.json
+/bom/v0.1/BOM_VERIFICATION.json
+/bom/v0.1/DIGIKEY_BUY.csv
+/bom/v0.1/INVENTORY_RECONCILIATION.csv
+/bom/v0.1/PROCUREMENT_OVERRIDES.json
+/bom/v0.1/SHOPPING_BY_STORE.csv
+/bom/v0.1/SHOPPING_BY_STORE.md
+/bom/v0.1/STOCK_CHECK.md
+/schematics/Zangei.3dshapes/STEP_VALIDATION.json
+/schematics/assembly/LOCAL_FIXES_5641a7a.json
+/schematics/assembly/LOCAL_FIXES_5641a7a.md
+/schematics/assembly/VERIFICATION.json
+/schematics/routing/DRC_CONTROL.json
+/schematics/routing/DRC_CORE.json
+/schematics/routing/DRC_FOLLOWUP.json
+/schematics/routing/DRC_MAIN.json
+/schematics/routing/ERC_FOLLOWUP.json
+/schematics/routing/FOLLOWUP_VERIFICATION.json
+/schematics/routing/ROUTING_STATUS.json
+/simulation/verify_clock_cv.py
+
+# Generated whole-board reviews; retain project-local component models
+/mechanical/stack-review-*/
+/mechanical/Zangei_Refined_PCB_Review.FCStd
+/schematics/Zangei.3dshapes/Zangei_Review_Models.FCStd

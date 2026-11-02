@@ -1,0 +1,144 @@
+{
+  "panel_mm": [
+    40.3,
+    128.5
+  ],
+  "face_mm": 2,
+  "rib_mm": 3,
+  "holes": [
+    {
+      "ref": "RV701",
+      "function": "100k LIN INPUT",
+      "x_mm": 9.9,
+      "y_from_top_mm": 21.75,
+      "diameter_parameter": "PotHole"
+    },
+    {
+      "ref": "J701",
+      "function": "AUDIO IN",
+      "x_mm": 28.9,
+      "y_from_top_mm": 20.749999,
+      "diameter_parameter": "JackHole"
+    },
+    {
+      "ref": "D701",
+      "function": "RED CLIP",
+      "x_mm": 21.3,
+      "y_from_top_mm": 21.25,
+      "diameter_parameter": "LEDHole"
+    },
+    {
+      "ref": "RV301",
+      "function": "100k TIME LIN",
+      "x_mm": 19.4,
+      "y_from_top_mm": 40.25,
+      "diameter_parameter": "PotHole"
+    },
+    {
+      "ref": "J302",
+      "function": "TIME CV",
+      "x_mm": 13.4,
+      "y_from_top_mm": 57.25,
+      "diameter_parameter": "JackHole"
+    },
+    {
+      "ref": "J301",
+      "function": "INHIBIT CV",
+      "x_mm": 26.4,
+      "y_from_top_mm": 59.25,
+      "diameter_parameter": "JackHole"
+    },
+    {
+      "ref": "RV401",
+      "function": "100k LIN wet blend (provisional)",
+      "x_mm": 9.9,
+      "y_from_top_mm": 76.25,
+      "diameter_parameter": "PotHole"
+    },
+    {
+      "ref": "RV404",
+      "function": "10k LIN AMOUNT",
+      "x_mm": 28.4,
+      "y_from_top_mm": 74.75,
+      "diameter_parameter": "PotHole"
+    },
+    {
+      "ref": "SW201",
+      "function": "PARALLEL / SERIES",
+      "x_mm": 9.9,
+      "y_from_top_mm": 89.25,
+      "diameter_parameter": "SwitchHole"
+    },
+    {
+      "ref": "RV402",
+      "function": "2x50k LIN CHARACTER",
+      "x_mm": 27.9,
+      "y_from_top_mm": 92.75,
+      "diameter_parameter": "PotHole"
+    },
+    {
+      "ref": "SW801",
+      "function": "ON-OFF-ON: SOFT / OFF / DARK",
+      "x_mm": 9.9,
+      "y_from_top_mm": 99.25,
+      "diameter_parameter": "SwitchHole"
+    },
+    {
+      "ref": "RV801",
+      "function": "10k LIN DRY / WET",
+      "x_mm": 27.9,
+      "y_from_top_mm": 110.25,
+      "diameter_parameter": "PotHole"
+    },
+    {
+      "ref": "J702",
+      "function": "AUDIO OUT",
+      "x_mm": 9.9,
+      "y_from_top_mm": 112.25,
+      "diameter_parameter": "JackHole"
+    },
+    {
+      "ref": "H1",
+      "function": "MountingHole_2.2mm_M2",
+      "x_mm": 4.4,
+      "y_from_top_mm": 12.25,
+      "diameter_parameter": "PCBHole"
+    },
+    {
+      "ref": "H2",
+      "function": "MountingHole_2.2mm_M2",
+      "x_mm": 4.4,
+      "y_from_top_mm": 64.5,
+      "diameter_parameter": "PCBHole"
+    },
+    {
+      "ref": "H3",
+      "function": "MountingHole_2.2mm_M2",
+      "x_mm": 35.9,
+      "y_from_top_mm": 64.5,
+      "diameter_parameter": "PCBHole"
+    },
+    {
+      "ref": "H4",
+      "function": "MountingHole_2.2mm_M2",
+      "x_mm": 17.9,
+      "y_from_top_mm": 116.25,
+      "diameter_parameter": "PCBHole"
+    }
+  ],
+  "mounting_slots": {
+    "centres_x_mm": 7.5,
+    "centres_y_from_top_mm": [
+      3,
+      125.5
+    ],
+    "width_mm": 3.2,
+    "length_mm": 4.8
+  },
+  "nominal_part_holes_mm": {
+    "jack": 6,
+    "switch": 4.95,
+    "pot": 7
+  },
+  "prototype_diametral_allowance_mm": 0.2
+}

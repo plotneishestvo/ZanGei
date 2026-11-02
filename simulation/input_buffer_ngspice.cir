@@ -1,0 +1,34 @@
+* Eurorack Input Buffer + Output Driver
+* For Qucs-S / ngspice
+* 
+* Simulation: transient 5ms, AC 10Hz-100kHz
+* Input: 10Vpp Eurorack signal, 1kHz sine
+
+* Input signal: 10Vpp, 1kHz
+VIN IN 0 SIN(0 5 1k) AC 1
+
+* Input AC coupling + bias to ground
+C1 IN BUF_IN 1uF
+R_BIAS BUF_IN 0 100k
+
+* Stage 1: Non-inverting unity-gain buffer
+* E-source: output between BUF_OUT and 0, controlled by BUF_IN minus BUF_FB1
+E1 BUF_OUT 0 BUF_IN BUF_FB1 100k
+RFB1 BUF_OUT BUF_FB1 1
+
+* Stage 2: Non-inverting, gain = 1 + RFB2/RG2 = 1 + 10k/10k = 2
+E2 AMP_OUT 0 BUF_OUT AMP_FB2 100k
+RFB2 AMP_OUT AMP_FB2 10k
+RG2 AMP_FB2 0 10k
+
+* Output AC coupling
+C2 AMP_OUT LINE_OUT 10uF
+RLOAD LINE_OUT 0 10k
+
+* Control statements
+.control
+tran 1u 5m
+plot v(in) v(line_out)
+.endc
+
+.end

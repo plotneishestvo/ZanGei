@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BBD_Custom")(type "KiCad")(uri "${KIPRJMOD}/BBD_Custom.kicad_sym")(options "")(descr "Project-local exact Coolaudio V3208D and V3205SD pin maps from supplied datasheets."))
+)

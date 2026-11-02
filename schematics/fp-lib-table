@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Zangei")(type "KiCad")(uri "${KIPRJMOD}/Zangei.pretty")(options "")(descr "Zangei verified physical envelopes and package pad adapters"))
+)

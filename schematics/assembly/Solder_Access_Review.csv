@@ -1,0 +1,165 @@
+solder_and_trim_first,then_fit_body_if_actual_overlap,board,pad_description,x_mm,y_mm,status
+U201,R211,CORE,PTH pad [<no net>] of U201,182.19,121.945,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R211,U201,CORE,PTH pad 2 [GND] of R211,184.079999,122.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+C201,R211,CORE,PTH pad 1 [Net-(C201-Pad1)] of C201,176.0,123.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+C201,R211,CORE,PTH pad 2 [BBD2_SOURCE] of C201,178.5,123.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R701,J701,CONTROL,PTH pad 2 [Net-(U701A-+)] of R701,130.5,67.92,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R109,D301,CORE,PTH pad 2 [GND] of R109,179.079999,93.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+C305,R109,CORE,PTH pad 1 [+5V] of C305,172.0,93.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+C305,R109,CORE,PTH pad 2 [GND] of C305,174.0,93.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R401,C403,CORE,PTH pad 1 [+5V] of R401,170.0,146.079999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R413,C403,CORE,PTH pad 1 [Net-(U402A--)] of R413,165.919999,150.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R403,C410,CORE,PTH pad 1 [/Wet and S&H/SH_IN] of R403,163.0,151.079999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+D401,R403,CORE,PTH pad 1 [/Wet and S&H/TRIGGER] of D401,162.0,143.81,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R403,D401,CORE,PTH pad 2 [/Wet and S&H/Q401_GATE] of R403,163.0,140.919999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+Q401,R403,CORE,PTH pad 1 [/Wet and S&H/SH_IN] of Q401,163.36,149.269999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+Q401,R403,CORE,PTH pad 2 [/Wet and S&H/HOLD] of Q401,163.36,147.999999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+Q401,R403,CORE,PTH pad 3 [/Wet and S&H/Q401_GATE] of Q401,163.36,146.729999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R403,Q401,CORE,PTH pad 1 [/Wet and S&H/SH_IN] of R403,163.0,151.079999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+RV404,R408,CONTROL,PTH pad 1 [Net-(D402-K)] of RV404,134.5,113.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+RV404,R408,CONTROL,PTH pad 2 [Net-(C406-Pad1)] of RV404,134.5,115.5,courtyard warning; actual body/lead clearance and tool access NOT qualified
+RV404,R408,CONTROL,PTH pad 3 [GND] of RV404,134.5,118.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R408,RV404,CONTROL,PTH pad 1 [Net-(U401A-+)] of R408,134.0,120.079999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R408,RV404,CONTROL,PTH pad 2 [GND] of R408,134.0,109.919999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R113,C301,CORE,PTH pad 1 [Net-(Q102-S)] of R113,163.0,91.079999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R708,RV801,CONTROL,"PTH pad 1 [/Input, feedback sum and clip LED/BBD_SEND_RAW] of R708",122.5,156.16,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R708,RV801,CONTROL,PTH pad 2 [AUDIO_IN_BBD] of R708,122.5,146.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+C804,RV801,CONTROL,PTH pad 1 [Net-(U702B--)] of C804,125.5,150.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+C804,RV801,CONTROL,PTH pad 2 [Net-(C804-Pad2)] of C804,130.5,150.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R110,R203,CORE,PTH pad 2 [GND] of R110,187.0,100.919999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R203,R108,CORE,PTH pad 1 [Net-(U201-IN)] of R203,183.919999,100.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R114,D302,CORE,PTH pad 2 [GND] of R114,178.079999,84.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+D302,R111,CORE,PTH pad 1 [Net-(D301-A)] of D302,177.0,89.5,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R114,U301,CORE,PTH pad 1 [BBD1_SUM] of R114,167.919999,84.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+U301,R114,CORE,PTH pad 10 [unconnected-(U301-SFout-Pad10)] of U301,172.81,85.35,courtyard warning; actual body/lead clearance and tool access NOT qualified
+U301,R114,CORE,PTH pad 11 [Net-(U301-R1)] of U301,172.81,82.81,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R111,U301,CORE,PTH pad 1 [Net-(Q102-S)] of R111,168.919999,88.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+U301,R111,CORE,PTH pad 9 [Net-(D303-K)] of U301,172.81,87.89,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R305,U301,CORE,PTH pad 1 [Net-(D301-A)] of R305,170.0,81.079999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R305,U301,CORE,PTH pad 2 [GND] of R305,170.0,70.919999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R501,J302,CONTROL,PTH pad 1 [/Clock and CV/CLK_TIME_KNOB] of R501,114.5,94.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R504,J302,CONTROL,PTH pad 2 [GND] of R504,114.0,96.919999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+J302,R504,CONTROL,PTH pad 1 [/Clock and CV/CLK_TIME_CV_IN] of J302,112.0,102.92,courtyard warning; actual body/lead clearance and tool access NOT qualified
+J603,J302,CONTROL,PTH pad 1 [+12V] of J603,117.475,100.46,courtyard warning; actual body/lead clearance and tool access NOT qualified
+J603,J302,CONTROL,PTH pad 3 [-12V] of J603,117.475,103.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R112,U304,CORE,PTH pad 2 [Net-(C105-Pad1)] of R112,187.0,87.919999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+D702,RV301,CONTROL,PTH pad 1 [GND] of D702,111.19,81.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+D702,RV301,CONTROL,PTH pad 2 [AUDIO_IN_BBD] of D702,118.81,81.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+RV301,U302,CONTROL,PTH pad 2 [/Clock and CV/CLK_TIME_KNOB] of RV301,125.5,81.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+RV301,U302,CONTROL,PTH pad 3 [GND] of RV301,125.5,83.5,courtyard warning; actual body/lead clearance and tool access NOT qualified
+U302,RV301,CONTROL,PTH pad 6 [Net-(U302B--)] of U302,122.19,86.27,courtyard warning; actual body/lead clearance and tool access NOT qualified
+U302,RV301,CONTROL,PTH pad 7 [CLK_TIME_SUM] of U302,122.19,83.73,courtyard warning; actual body/lead clearance and tool access NOT qualified
+U302,RV301,CONTROL,PTH pad 8 [+12V] of U302,122.19,81.19,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R210,U201,CORE,PTH pad 1 [Net-(Q201-S)] of R210,187.0,127.079999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R210,U201,CORE,PTH pad 2 [GND] of R210,187.0,116.919999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R214,U201,CORE,PTH pad 2 [GND] of R214,187.079999,114.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+U201,R214,CORE,PTH pad 1 [GND] of U201,182.19,114.325,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R213,U201,CORE,PTH pad 2 [Net-(C205-Pad1)] of R213,184.079999,126.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+U201,R213,CORE,PTH pad [<no net>] of U201,182.19,124.485,courtyard warning; actual body/lead clearance and tool access NOT qualified
+U201,R213,CORE,PTH pad 3 [Net-(Q202-G)] of U201,182.19,127.025,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R110,U201,CORE,PTH pad 1 [Net-(Q101-S)] of R110,187.0,111.079999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+U201,J601,CORE,PTH pad 4 [Net-(Q201-G)] of U201,182.19,129.565,courtyard warning; actual body/lead clearance and tool access NOT qualified
+U201,J601,CORE,PTH pad 5 [+5V] of U201,189.81,129.565,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R602,C603,CORE,PTH pad 1 [Net-(D602-A)] of R602,176.919999,64.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R602,C607,CORE,PTH pad 2 [-12V] of R602,187.079999,64.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R103,C104,CORE,PTH pad 1 [Net-(U101-IN)] of R103,175.0,110.079999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R306,F601,CORE,PTH pad 1 [CLK_TIME_SUM] of R306,174.919999,72.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+D602,R306,CORE,PTH pad 2 [Net-(D602-A)] of D602,180.0,70.84,courtyard warning; actual body/lead clearance and tool access NOT qualified
+D701,D703,CONTROL,PTH pad 1 [Net-(D701-K)] of D701,118.63,62.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+D701,D703,CONTROL,PTH pad 2 [Net-(D701-A)] of D701,121.17,62.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+C806,RV402,CONTROL,PTH pad 1 [-12V] of C806,116.0,140.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+C806,RV402,CONTROL,PTH pad 2 [GND] of C806,118.54,140.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R412,RV401,CONTROL,PTH pad 1 [FEEDBACK_RETURN] of R412,103.0,123.08,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R412,RV401,CONTROL,PTH pad 2 [Net-(U401B--)] of R412,103.0,112.92,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R404,C402,CORE,PTH pad 2 [GND] of R404,172.079999,133.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R410,RV401,CONTROL,PTH pad 1 [Net-(D402-K)] of R410,111.0,115.58,courtyard warning; actual body/lead clearance and tool access NOT qualified
+RV404,RV403,CONTROL,PTH pad [<no net>] of RV404,127.0,109.85,courtyard warning; actual body/lead clearance and tool access NOT qualified
+D403,RV404,CONTROL,PTH pad 1 [Net-(D402-A)] of D403,122.19,116.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+D403,RV404,CONTROL,PTH pad 2 [Net-(D402-K)] of D403,129.81,116.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+U401,RV404,CONTROL,PTH pad 1 [Net-(D402-K)] of U401,129.81,119.19,courtyard warning; actual body/lead clearance and tool access NOT qualified
+U401,RV404,CONTROL,PTH pad 2 [Net-(D402-A)] of U401,129.81,121.73,courtyard warning; actual body/lead clearance and tool access NOT qualified
+U401,RV404,CONTROL,PTH pad 7 [FEEDBACK_RETURN] of U401,122.19,121.73,courtyard warning; actual body/lead clearance and tool access NOT qualified
+U401,RV404,CONTROL,PTH pad 8 [+12V] of U401,122.19,119.19,courtyard warning; actual body/lead clearance and tool access NOT qualified
+RV404,U401,CONTROL,PTH pad [<no net>] of RV404,127.0,121.15,courtyard warning; actual body/lead clearance and tool access NOT qualified
+U702,J702,CONTROL,PTH pad 4 [-12V] of U702,112.81,144.81,courtyard warning; actual body/lead clearance and tool access NOT qualified
+U702,J702,CONTROL,PTH pad 5 [Net-(U702B-+)] of U702,105.19,144.81,courtyard warning; actual body/lead clearance and tool access NOT qualified
+J702,U702,CONTROL,PTH pad 2 [GND] of J702,108.5,146.52,courtyard warning; actual body/lead clearance and tool access NOT qualified
+C801,J702,CONTROL,PTH pad 1 [/Output mix and filter/WET_INV] of C801,110.225,154.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+C801,J702,CONTROL,PTH pad 2 [Net-(C801-Pad2)] of C801,112.765,154.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R715,J702,CONTROL,PTH pad 1 [+12V] of R715,105.0,158.079999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R715,J702,CONTROL,PTH pad 2 [Net-(D701-A)] of R715,105.0,147.919999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R501,RV301,CONTROL,PTH pad 2 [Net-(U302B-+)] of R501,114.5,83.84,courtyard warning; actual body/lead clearance and tool access NOT qualified
+U701,RV301,CONTROL,PTH pad 3 [Net-(U701A-+)] of U701,112.81,75.27,courtyard warning; actual body/lead clearance and tool access NOT qualified
+U701,RV301,CONTROL,PTH pad 4 [-12V] of U701,112.81,77.81,courtyard warning; actual body/lead clearance and tool access NOT qualified
+C501,RV301,CONTROL,PTH pad 1 [+12V] of C501,120.0,77.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+C501,RV301,CONTROL,PTH pad 2 [GND] of C501,122.54,77.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+C703,RV701,CONTROL,PTH pad 1 [+12V] of C703,103.725,66.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+C703,RV701,CONTROL,PTH pad 2 [GND] of C703,106.265,66.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R409,RV402,CONTROL,PTH pad 1 [Net-(D402-A)] of R409,121.92,135.5,courtyard warning; actual body/lead clearance and tool access NOT qualified
+C407,RV401,CONTROL,PTH pad 1 [+12V] of C407,113.0,120.275,courtyard warning; actual body/lead clearance and tool access NOT qualified
+C407,RV401,CONTROL,PTH pad 2 [GND] of C407,113.0,117.735,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R407,RV401,CONTROL,PTH pad 2 [Net-(R407-Pad2)] of R407,114.0,122.919999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R716,U701,CONTROL,PTH pad 2 [Net-(Q701-B)] of R716,109.0,70.84,courtyard warning; actual body/lead clearance and tool access NOT qualified
+RV701,U701,CONTROL,PTH pad [<no net>] of RV701,108.5,68.15,courtyard warning; actual body/lead clearance and tool access NOT qualified
+C701,J701,CONTROL,PTH pad 1 [DRY_AUDIO] of C701,130.0,55.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R101,U101,CORE,PTH pad 1 [Net-(C101-Pad1)] of R101,169.0,113.079999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R106,U101,CORE,PTH pad 2 [VGG_BBD1] of R106,169.0,115.919999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+C204,J601,CORE,PTH pad 1 [+5V] of C204,190.0,136.274999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+C204,J601,CORE,PTH pad 2 [GND] of C204,190.0,133.734999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+C404,R406,CORE,PTH pad 2 [OUT_SH] of C404,179.25,139.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+C404,R402,CORE,PTH pad 1 [Net-(U402B--)] of C404,176.75,139.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R206,J601,CORE,PTH pad 1 [+5V] of R206,182.5,143.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R206,J601,CORE,PTH pad 2 [VGG_BBD2] of R206,182.5,153.16,courtyard warning; actual body/lead clearance and tool access NOT qualified
+SW801,U702,CONTROL,PTH pad 1 [Net-(SW801-A)] of SW801,108.5,137.46,courtyard warning; actual body/lead clearance and tool access NOT qualified
+SW801,U702,CONTROL,PTH pad 2 [/Output mix and filter/WET_INV] of SW801,108.5,140.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+SW801,U702,CONTROL,PTH pad 3 [Net-(SW801-C)] of SW801,108.5,142.54,courtyard warning; actual body/lead clearance and tool access NOT qualified
+U702,SW801,CONTROL,PTH pad 1 [Net-(C801-Pad2)] of U702,112.81,137.19,courtyard warning; actual body/lead clearance and tool access NOT qualified
+U702,SW801,CONTROL,PTH pad 2 [/Output mix and filter/WET_INV] of U702,112.81,139.73,courtyard warning; actual body/lead clearance and tool access NOT qualified
+U702,SW801,CONTROL,PTH pad 3 [GND] of U702,112.81,142.27,courtyard warning; actual body/lead clearance and tool access NOT qualified
+U702,SW801,CONTROL,PTH pad 4 [-12V] of U702,112.81,144.81,courtyard warning; actual body/lead clearance and tool access NOT qualified
+U702,SW801,CONTROL,PTH pad 5 [Net-(U702B-+)] of U702,105.19,144.81,courtyard warning; actual body/lead clearance and tool access NOT qualified
+U702,SW801,CONTROL,PTH pad 6 [Net-(U702B--)] of U702,105.19,142.27,courtyard warning; actual body/lead clearance and tool access NOT qualified
+U702,SW801,CONTROL,PTH pad 7 [Net-(U702B--)] of U702,105.19,139.73,courtyard warning; actual body/lead clearance and tool access NOT qualified
+U702,SW801,CONTROL,PTH pad 8 [+12V] of U702,105.19,137.19,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R601,C603,CORE,PTH pad 1 [Net-(D601-K)] of R601,176.919999,60.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R503,R805,CONTROL,PTH pad 1 [Net-(U302B--)] of R503,134.0,86.079999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R805,R503,CONTROL,PTH pad 2 [GND] of R805,134.0,83.919999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+C502,R805,CONTROL,PTH pad 1 [-12V] of C502,132.725,89.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+C502,R805,CONTROL,PTH pad 2 [GND] of C502,135.265,89.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R315,D601,CORE,PTH pad 2 [BBD_CP2] of R315,189.0,67.84,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R601,C607,CORE,PTH pad 2 [+12V] of R601,187.079999,60.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R603,C607,CORE,PTH pad 1 [+5V] of R603,190.0,64.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+C607,R603,CORE,PTH pad 1 [+5V] of C607,188.75,62.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+C607,R603,CORE,PTH pad 2 [GND] of C607,191.25,62.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+J301,RV403,CONTROL,PTH pad 1 [INHIBIT_CV_IN] of J301,125.0,104.92,courtyard warning; actual body/lead clearance and tool access NOT qualified
+RV403,J301,CONTROL,PTH pad 2 [Net-(R415-Pad1)] of RV403,127.46,104.96,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R504,R804,CONTROL,PTH pad 1 [Net-(U302B--)] of R504,114.0,107.079999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R401,U402,CORE,PTH pad 2 [/Wet and S&H/SH_IN] of R401,170.0,135.919999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R705,RV701,CONTROL,PTH pad 1 [FEEDBACK_RETURN] of R705,107.0,63.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+RV701,R705,CONTROL,PTH pad [<no net>] of RV701,108.5,56.85,courtyard warning; actual body/lead clearance and tool access NOT qualified
+C702,RV701,CONTROL,"PTH pad 1 [/Input, feedback sum and clip LED/SUM_INV] of C702",115.725,69.5,courtyard warning; actual body/lead clearance and tool access NOT qualified
+RV402,U401,CONTROL,PTH pad [<no net>] of RV402,126.5,128.75,courtyard warning; actual body/lead clearance and tool access NOT qualified
+U401,RV402,CONTROL,PTH pad 4 [-12V] of U401,129.81,126.81,courtyard warning; actual body/lead clearance and tool access NOT qualified
+U401,RV402,CONTROL,PTH pad 5 [GND] of U401,122.19,126.81,courtyard warning; actual body/lead clearance and tool access NOT qualified
+C101,R101,CORE,PTH pad 1 [Net-(C101-Pad1)] of C101,168.75,105.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R101,C101,CORE,PTH pad 2 [Net-(U101-IN)] of R101,169.0,102.919999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R406,C401,CORE,PTH pad 1 [OUT_SH] of R406,179.0,144.079999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+J603,J301,CONTROL,PTH pad 2 [GND] of J603,120.015,100.46,courtyard warning; actual body/lead clearance and tool access NOT qualified
+J603,J301,CONTROL,PTH pad 4 [GND] of J603,120.015,103.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+J603,J301,CONTROL,PTH pad 6 [GND] of J603,120.015,105.54,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R502,J301,CONTROL,PTH pad 1 [/Clock and CV/CLK_TIME_CV_IN] of R502,123.919999,100.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+Q202,R214,CORE,PTH pad 3 [+5V] of Q202,178.36,115.729999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R214,Q202,CORE,PTH pad 1 [BBD2_SUM] of R214,176.919999,114.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R208,J601,CORE,PTH pad 1 [Net-(Q201-G)] of R208,180.919999,156.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R208,J601,CORE,PTH pad 2 [GND] of R208,191.079999,156.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+J605,J701,CONTROL,PTH pad 9 [CLK_TIME_SUM] of J605,122.11,54.874999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+J605,J701,CONTROL,PTH pad 11 [BBD2_SOURCE] of J605,124.65,54.874999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+C405,RV402,CONTROL,PTH pad 1 [Net-(U401A-+)] of C405,121.5,131.5,courtyard warning; actual body/lead clearance and tool access NOT qualified
+C405,RV402,CONTROL,PTH pad 2 [GND] of C405,126.5,131.5,courtyard warning; actual body/lead clearance and tool access NOT qualified
+D602,R301,CORE,PTH pad 1 [Net-(D602-K)] of D602,180.0,81.0,courtyard warning; actual body/lead clearance and tool access NOT qualified
+C602,R603,CORE,PTH pad 1 [+12V] of C602,190.5,56.5,courtyard warning; actual body/lead clearance and tool access NOT qualified
+Q102,R106,CORE,PTH pad 1 [Net-(Q102-S)] of Q102,167.73,123.359999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+Q102,R106,CORE,PTH pad 2 [Net-(Q102-G)] of Q102,169.0,123.359999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+Q102,R106,CORE,PTH pad 3 [+5V] of Q102,170.27,123.359999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R202,J601,CORE,PTH pad 1 [Net-(U201-IN)] of R202,190.0,149.079999,courtyard warning; actual body/lead clearance and tool access NOT qualified
+R202,J601,CORE,PTH pad 2 [VGG_BBD2] of R202,190.0,138.919999,courtyard warning; actual body/lead clearance and tool access NOT qualified
